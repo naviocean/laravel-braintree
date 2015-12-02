@@ -1,13 +1,13 @@
 {
-    "name": "naviocean/laravel5-braintree",
+    "name": "naviocean/laravel-braintree",
     "description": "Braintree Service Provider for Laravel 5",
     "keywords": ["braintree","braintree laravel 5"],
     "homepage": "https://github.com/naviocean/laravel-braintree",
     "license": "MIT",
     "authors": [
         {
-            "name": "Tameem Safi",
-            "email": "tameemsafi@live.co.uk",
+            "name": "NaviOcean",
+            "email": "navi.ocean@outlook.com",
             "homepage": "http://naviocean.com",
             "role": "Developer"
         },
