@@ -2,17 +2,24 @@ Braintree for Laravel 5
 ==============
 
 ### Installation
+#### 1. Setup vendor
+Enter command
 
-In your Laravel project's composer.json file, add `naviocean/laravel5-braintree` as a dependency in the require object:
+```js
+"composer required naviocean/laravel-braintree:dev-master"
+```
+##### Other way
+In your Laravel project's composer.json file, add `naviocean/laravel-braintree` as a dependency in the require object:
 
 ```js
 "naviocean/laravel5-braintree": "dev-master"
 ```
     
-You do *not* need to add any other dependencies, as `naviocean/laravel5-braintree` loads in the other dependencies automatically.
+You do *not* need to add any other dependencies, as `naviocean/laravel-braintree` loads in the other dependencies automatically.
 
 Finally, do a `composer update`.
 
+#### 2. Config App
 Once installed, add the ServiceProvider to your provider array within `config/app.php`:
 
 ```php

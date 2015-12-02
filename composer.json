@@ -10,11 +10,6 @@
             "email": "navi.ocean@outlook.com",
             "homepage": "http://naviocean.com",
             "role": "Developer"
-        },
-        {
-            "name": "Brad Daily",
-            "email": "brad@bradleyboy.com",
-            "role": "Developer"
         }
     ],
     "require": {
