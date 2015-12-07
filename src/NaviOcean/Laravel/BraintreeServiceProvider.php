@@ -26,7 +26,7 @@ class BraintreeServiceProvider extends ServiceProvider {
 		
 		$this->publishes([
 		    __DIR__.'/../../config/braintree.php' => config_path('braintree.php'),
-		]);
+		], 'config');
 
 		Braintree_Configuration::environment(
 			$this->app['config']->get('braintree.environment')
